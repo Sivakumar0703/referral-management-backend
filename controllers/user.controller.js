@@ -58,7 +58,7 @@ export const loginUser = async(req,res) => {
         console.log('token',token);
         user.token = token;
         await user.save();
-        res.status(200).json({message:"login successful", token});
+        res.status(200).json({message:"login successful", token, isAdmin:user.isAdmin});
     } catch (error) {
         console.log("error in user login", error);
         res.status(500).json({message:"internal server error"}); 
