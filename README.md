@@ -79,6 +79,25 @@ https://referral-management-backend.onrender.com
 
 ## Additional Notes
 
+## Environment Variables
+
+The following environment variables are required to run the application:
+
+* **PORT:** The port number for the server to listen on.
+* **DB_USERNAME:** The username for the MongoDB database.
+* **DB_PASSWORD:** The password for the MongoDB database.
+* **JWT_SECRET_KEY:** The secret key used to sign JWTs.
+* **GOOGLE_PROJECT_ID:** The Google Cloud Project ID.
+* **GOOGLE_BUCKET_NAME:** The name of the Google Cloud Storage bucket.
+* **GOOGLE_CLOUD_KEYFILE:** The path to the Google Cloud service account key file.
+* **GOOGLE_CLOUD_STORAGE_URL:** The base URL for the Google Cloud Storage bucket.
+
+## Running the Application Locally
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+
 ## Postman Documentation
 
 For detailed API reference and examples, you can view the Postman documentation for this project here:
