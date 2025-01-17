@@ -1,0 +1,9 @@
+
+# IGNORE NODE MODULES FOLDER
+node_modules/
+
+# IGNORE DOTENV FILE
+.env
+
+# IGNORE GOOGLE KEY FILE
+mykey.json
